@@ -1,0 +1,15 @@
+<button class="fifty" ng-click="fiftyfifty()" href="" disabled="{{game.jokers.fifty}}">50-50</button>
+<button ng-click="crowd()" href="" class="crowd" disabled="{{game.jokers.crowd}}">Publikum</button>
+<button ng-click="boozeIt()" href="" class="booze" disabled="{{game.jokers.booze}}">Frage wegsaufen</button>
+<button ng-click="horst()" href="" class="horst" disabled="{{game.jokers.horst}}">Zieh den Putin!</button>
+<br/>
+<div class="question">
+    <p>{{question.question}}</p>
+    <ul ng-repeat="answer in question.choices">
+        <li class="{{answer.id}}" ng-click="mark(answer.id)"><span class="id">{{answer.id}})</span><span class="answer">{{answer.answer}}</span></li>
+    </ul>
+    <div style="clear:both"></div>
+    <a href="" id="next" ng-click="next()">Weiter</a>
+</div>
+
+        <div id="popup" style="display: none"><img src='./wawa.jpg' width="668" height="528"/></div>

@@ -1,0 +1,50 @@
+li.selected {background: yellow}
+#content {
+    padding:0;
+    position:absolute;
+    top:25%; left:50%;
+    height:300px;
+width:800px;
+margin:-150px 0 0 -400px; }
+
+.question p{border: 2px solid #CCC;
+    padding: 5px;
+    background: #414275;
+    color: white;}
+
+ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+li {
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+    margin-top: 51px;
+    margin-left: 46px;
+    padding: 3px 10px;
+}
+
+span.id {
+    text-transform:uppercase;
+
+}
+span.answer {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#next {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: #414275;
+    color: #fff;
+    float: left;
+    margin-top: 43px;
+    margin-left: 353px;
+}
+
+button {float: right}
+
